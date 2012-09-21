@@ -20,7 +20,7 @@ backup=()
 options=()
 install=
 changelog=
-source=("https://github.com/CHH/$pkgname/tarball/v$pkgver")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/CHH/$pkgname/tarball/v$pkgver")
 md5sums=('8d71bca044643ab169586eb7e9a856d3')
 noextract=()
 
